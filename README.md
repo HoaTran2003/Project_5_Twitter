@@ -34,73 +34,21 @@ The plotsentiment() function takes text_cleaned and covid as parameters, both of
 
 IV.	Results and findings: 
 
+![](https://github.com/HoaTran2003/Project_5_Twitter/blob/main/1.jpg)
 
- 
-Key                  Frequency
----                  ---------
-cases                16286
-The                  15146
-I                    13198
-Covid19              12841
-amp                  11903
-new                  10703
-covid19               8958
-people                8037
-pandemic              6164
-deaths                6033
-We                    5533
-This                  5019
-A                     4703
-Coronavirus     4394
-positive              4156
-In                    4060
-one                   3835
-2020                  3830
-India                 3822
-like                  3735
-us                    3702
-New                   3609
-get                   3556
-If                    3529
-realDonaldTrump       3519
-US                    3439
-today                 3351
-need                  3197
-health                3116
-mask                  3115
-COVID19…              3107
-How                   3106
-time                  3069
-last                  2983
-help                  2906
-vaccine               2872
-day                   2849
-reported              2818
-August                2807
-know                  2802
-Trump                 2758
-many                  2755
-spread                2596
-What                  2592
-As                    2591
-You                   2510
-due                   2494
-total                 2453
-number                2447
-2                     2435
-
-The following results and graphs show the 50 most common words in the tweets. Some of the most noticeable words are “cases”, “death”, “people”, “positive”, “pandemic”. This indicates that people were discussing a lot more about the pandemic (information related to cases, death rate and postive cases), suggesting that some of the tweets have negative tone to them. Moreover, there are more words such as “Trump”, “realDonalTrump” as well as “India”, showing that during the time of this pandemic, there were lots of discussions related to the situation in India as well as related to the US presidents of the time. Overall, most of the tweets seem to be slightly negative but still bear some positive perspective in them. With this assumption, I decided to count the number of positive and negative tweets and then showing their changes to validate my hypothesis. 
+ The following results and graphs show the 50 most common words in the tweets. Some of the most noticeable words are “cases”, “death”, “people”, “positive”, “pandemic”. This indicates that people were discussing a lot more about the pandemic (information related to cases, death rate and postive cases), suggesting that some of the tweets have negative tone to them. Moreover, there are more words such as “Trump”, “realDonalTrump” as well as “India”, showing that during the time of this pandemic, there were lots of discussions related to the situation in India as well as related to the US presidents of the time. Overall, most of the tweets seem to be slightly negative but still bear some positive perspective in them. With this assumption, I decided to count the number of positive and negative tweets and then showing their changes to validate my hypothesis. 
 
 #Number of positive, negative and neutral tweets:
  
+![](https://github.com/HoaTran2003/Project_5_Twitter/blob/main/2.jpg)
 
 The bar chart above shows that the majority of the tweets (nearly 70,000) are positive while nearly 60,000 of them are negative. The remaining tweets are neutral in their sentimental value. This contradicts with my hypothesis as there are a lot more positive tweets compared to negative ones. This means that people’s discussions may contain negative words but the overall sentiment value of their tweets are actually positive. Because of this, my initial assumption was disproved as shown in the graph above.
 
- 
+![](https://github.com/HoaTran2003/Project_5_Twitter/blob/main/3.jpg)
 
-The bar chart displays the changes of count of the sentiment of daily Tweets throughout the surveyed period with major fluctuations. Overall, there seemed to be less tweets about Covid-19 and the count for each sentinment value (neutral, negative or positive) seemed to be decreasing. This could be explained by the constant changing state of the pandemic. Noticeably, there are major dips (decreases) between July and August as well as in around the time of Augsut 9th and then the lines spiked up shortly afterwards. This feature clearly showcased the elasticity in the changes of people’s perspective during Covid-19 as only in a few hours, sentiment value counts could change so drastically. 
+The line chart displays the changes of count of the sentiment of daily Tweets throughout the surveyed period with major fluctuations. Overall, there seemed to be less tweets about Covid-19 and the count for each sentinment value (neutral, negative or positive) seemed to be decreasing. This could be explained by the constant changing state of the pandemic. Noticeably, there are major dips (decreases) between July and August as well as in around the time of Augsut 9th and then the lines spiked up shortly afterwards. This feature clearly showcased the elasticity in the changes of people’s perspective during Covid-19 as only in a few hours, sentiment value counts could change so drastically. 
 
-VI.	Conclusion: 
+V.	Conclusion: 
 
 Overall, in the time span of my analysis, people’s sentiment towards the pandemic was slightly optimistic with the most common words being:
 However, there were constant fluctuations in the sentiment value throughout the surveyed period, showing that with the constant changes in the state of the pandemic, people’s sentiment also follow said changes. All of this clearly shows that people’s sentiment to the pandemic are actually relatively elastic in accordance with the state of Coivd-19. 
