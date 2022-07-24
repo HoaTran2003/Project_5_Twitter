@@ -11,15 +11,19 @@ II.	Algorithm explanation:
 This project focuses on primarily on the analysis of Twitter’s tweets. In order to do so, I divide the project into three main parts utilizing Python’s built in text analysis librar: NPL toolkit
 
 Part 1: Cleaning the tweets 
+
 In order to do this part, I need to clean the tweets first as there are unesscary parts in them which make the analysis inaccurate or maybe misleading. First of all, in some Tweets, there are links to lots of websites which are unneeded for analysis as they contain no sentiment value. Therefore, I have to remove the :https://” in the links.  Moreover, there are lots of stop words (words that need to be filtered out so that the NPL toolkit can analyze accurately the sentiment value). The puncuations in the tweets are also needed to be filtered out due to the fact that analysis of them will bring no useful results. As for the convenience of using the NPL toolkit, I will also need to turn all of the letters in the tweets to lowercase letters. 
 
 Part 2: Finding the most common words: 
+
 After having cleaned the tweets, I need to find the most common words (in this project, I have narrowed it down to 50). This is because knowing the frequency of words can help me to formulate some research questions regarding how positive and negative are people’s perspective of the pandemic 
 
 Part 3: Sentiment analysis: 
+
 In this part, after having found the most common words, the next step is to analyze the sentiment value of the polished text. To do this, after having used the NPL toolkit to analyze the text, instead of displaying the scores for each tweet, I decide to show the number of positive, negative and neutral tweets. After that, displaying how the number of such tweets change throught the surveyed period is necessary to see how people’s sentiment also change. 
 
 III.	Algorithm implementation: 
+
 The project has three functions: main(), plotmostcommon() and plotsentiment(). 
 
 The main() function is where the program begins. This function takes no parameters. In this function, the tweets are imported from a link and are read as csv format using panda library. After that, I choose the necessary columns for analysis which are user_name, date and text. Next, I convert the type of the user_name to categorical and assign each user_name with a unique numerical value by using . For the date column, I change the format to date time value (month/date/year)for better analysis instead of putting it in hours format (for the purpose of making a line plot). Then, a for loop is created to delete the “https://” in tweets and also to convert all of the tweets to lower case letters. Moreover, I also make a translation table through regular expressions to remove the punctuations in the tweets. The reason for this is because of memory efficiency as I have tried using for loops and lists to do this but I encounter memory error. Next, I use the stop words package built in the NPL toolkit to remove the stop words and I aslo add other unnecessary words to the set of stop words. After that, I use regular expression to apply the remove stop words to all of the tweets to remove them.
@@ -99,5 +103,4 @@ The bar chart displays the changes of count of the sentiment of daily Tweets thr
 VI.	Conclusion: 
 
 Overall, in the time span of my analysis, people’s sentiment towards the pandemic was slightly optimistic with the most common words being:
-. However, there were constant fluctuations in the sentiment value throughout the surveyed period, showing that with the constant changes in the state of the pandemic, people’s sentiment also follow said changes. 
-All of this clearly shows that people’s sentiment to the pandemic are actually relatively elastic in accordance with the state of Coivd-19. 
+However, there were constant fluctuations in the sentiment value throughout the surveyed period, showing that with the constant changes in the state of the pandemic, people’s sentiment also follow said changes. All of this clearly shows that people’s sentiment to the pandemic are actually relatively elastic in accordance with the state of Coivd-19. 
